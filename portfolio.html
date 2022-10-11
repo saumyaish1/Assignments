@@ -5,19 +5,124 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <style>
+    
+        .table-bordered {
+            border-collapse: collapse;
+        }
+        caption{
+            caption-side:bottom
+        }
+        .table-bordered
+        th,
+        td {
+            border: 2px solid #444;
+        }
+
+        th,
+        td {
+            padding: 1em;
+        }
+
+    </style>
 </head>
 <body>
-    <h2>Project 1</h2>
+    <h1>Portfolio</h1>
+    <h3>Project 1</h3>
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem itaque in aperiam sapiente magni enim voluptas quaerat fugiat, illum officia blanditiis, delectus necessitatibus, accusamus fuga ex? Eligendi at aperiam iste.
         Et, eaque! Reprehenderit ut sint sunt velit? Harum, quia possimus officia laboriosam neque est, adipisci distinctio itaque animi magnam, maxime sit fugit veniam odio architecto. Iusto cupiditate odio odit blanditiis.
     </p>
-    <h2>Project 2</h2>
+    <h3>Project 2</h3>
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem itaque in aperiam sapiente magni enim voluptas
         quaerat fugiat, illum officia blanditiis, delectus necessitatibus, accusamus fuga ex? Eligendi at aperiam iste.
         Et, eaque! Reprehenderit ut sint sunt velit? Harum, quia possimus officia laboriosam neque est, adipisci distinctio
         itaque animi magnam, maxime sit fugit veniam odio architecto. Iusto cupiditate odio odit blanditiis.
     </p>
+    <h2>Plans</h2>
+    <table class="table-bordered">
+                    <caption>Hosting Plan and Pricing for various Cloud Providers</caption>
+
+        <thead>
+            <tr>
+                <th scope="col" rowspan="2">Plan</td>
+                <th scope="col" rowspan="2">Max Cluster Size</td>
+                <th scope="col" rowspan="2">Cloud Provider</td>
+                <th scope="col" colspan="2">Price in USD (per node)</td>
+            </tr>
+            <tr>
+                <th scope="col">Billed Per Hour</td>
+                <th scope="col">Biller Per Month</td>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <th scope="row" rowspan=3>Free Tier </th>
+                <td>3</td>
+                <td>Aws</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+               
+                <td>3</td>
+                <td>Azure</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+          
+                <td>3</td>
+                <td>GCP</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row" rowspan="3">Basics</th>
+                <td>15</td>
+                <td>AWS</td>
+                <td>0.10</td>
+                <td>0.05</td>
+            </tr>
+            <tr>
+            
+                <td>10</td>
+                <td>Azure</td>
+                <td>0.10</td>
+                <td>0.05</td>
+            </tr>
+            <tr>
+             
+                <td>10</td>
+                <td>GCP</td>
+                <td>0.20</td>
+                <td>0.10</td>
+            </tr>
+            <tr>
+                <th scope="row" rowspan="3">Pro</th>
+                <td>200</td>
+                <td>AWS</td>
+                <td>0.07</td>
+                <td>0.03</td>
+            </tr>
+            <tr>
+              
+                <td>100</td>
+                <td>Azure</td>
+                <td>0.10</td>
+                <td>0.05</td>
+            </tr>
+            <tr>
+          
+                <td>100</td>
+                <td>GCP</td>
+                <td>0.12</td>
+                <td>0.06</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
 </body>
 </html>
